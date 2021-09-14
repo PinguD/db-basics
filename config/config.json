@@ -1,0 +1,7 @@
+{
+  "development": {
+    "url": "postgres://vnigsene:h2lzBFQHoAvnIipswgfIEdoElIFajkyN@hattie.db.elephantsql.com/vnigsene",
+    "dialect": "postgres",
+    "operatorAliases": "0"
+  }
+}
