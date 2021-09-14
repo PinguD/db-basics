@@ -2,20 +2,14 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.bulkInsert("todoItems", [
+    await queryInterface.bulkInsert("tags", [
       {
-        task: "doThingOne",
-        deadline: "13-04-2022",
-        todoListId: 1,
-        important: true,
+        title: "tagOne",
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        task: "doThingTwo",
-        deadline: "14-04-2022",
-        todoListId: 2,
-        important: false,
+        title: "tagTwo",
         createdAt: new Date(),
         updatedAt: new Date(),
       },

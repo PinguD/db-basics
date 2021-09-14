@@ -7,16 +7,19 @@ module.exports = {
       [
         {
           name: "list1",
+          userId: 1,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           name: "list2",
+          userId: 2,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           name: "list3",
+          userId: 2,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
